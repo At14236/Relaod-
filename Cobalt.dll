@@ -12,6 +12,7 @@ enum class ECobaltUsage
 #define URL_PORT "3551"
 // #define USE_MINHOOK // ONLY USE IF U INJECT LATE
 
+-skippatchcheck -epicportal -HTTP=WinINet -log
 
 constexpr static ECobaltUsage CobaltUsage = ECobaltUsage::Private;
 constexpr bool bIsS13Epic = false; // S13 Hybrid Windows -> IOS fakemongodb://127.0.0.1/Reload
